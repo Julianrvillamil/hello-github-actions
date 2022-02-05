@@ -1,2 +1,11 @@
 name : Un flujo de trabajo para mi archivo Hello World 
 en : push
+trabajos :
+   compilación :
+     nombre : la acción Hello world se 
+    ejecuta en : ubuntu-últimos 
+    pasos :
+      - usa : actions/checkout@v1 
+      - usa : ./action-a 
+        con :
+           MI_NOMBRE : " Mona "
