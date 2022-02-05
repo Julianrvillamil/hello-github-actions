@@ -1,0 +1,17 @@
+nombre : " Hola Acciones "
+ descripción : " Saludar a alguien "
+ autor : " octocat@github.com "
+
+entradas :
+   MI_NOMBRE :
+     descripción : " A quién saludar "
+     requerido : verdadero 
+    valor predeterminado : " Mundo "
+
+ejecuta :
+   usando : " docker "
+   imagen : " Dockerfile "
+
+marca :
+   icono : " micrófono "
+   color : " púrpura "
